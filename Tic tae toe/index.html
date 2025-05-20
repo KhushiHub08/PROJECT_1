@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="grid">
+            <div class="row">
+                <div onclick="handleclick(this)" id="0" class="col"></div>
+                <div onclick="handleclick(this)" id="1" class="col"></div>
+                <div onclick="handleclick(this)" id="2" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleclick(this)" id="3" class="col"></div>
+                <div onclick="handleclick(this)" id="4" class="col"></div>
+                <div onclick="handleclick(this)" id="5" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleclick(this)" id="6" class="col"></div>
+                <div onclick="handleclick(this)" id="7" class="col" ></div>
+                <div onclick="handleclick(this)" id="8" class="col"></div>
+                </div>
+        </div>
+                <button  type="button" onclick="restartGame()">Restart Game</button>
+
+                <div id="scoreboard">
+                    <p id="x-wins">X Wins: 0</p>
+                    <p id="o-wins">O Wins: 0</p>
+                    <p id="draws">Draws: 0</p>
+                </div>
+</div>
+        
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+   
+
+    
+   
+           
+        
+      
+
+   
